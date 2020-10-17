@@ -1,0 +1,27 @@
+{
+  "name": "p7-groupomania-dw--v2",
+  "version": "1.0.0",
+  "description": "Création d'un réseau social d'entreprise | Fati Pereira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Fati Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2/issues"
+  },
+  "homepage": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2#readme"
+}
