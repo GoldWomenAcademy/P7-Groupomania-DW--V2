@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2/issues"
   },
-  "homepage": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2#readme"
+  "homepage": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2#readme",
+  "dependencies": {
+    "node": "^14.13.1"
+  }
 }
