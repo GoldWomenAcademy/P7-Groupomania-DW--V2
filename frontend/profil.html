@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+            viewport-fit=cover">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+        <title>Groupomania</title>
+        <meta name="description" content="Réseau social de l'entreprise Groupomania'">
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <header class="navbar navbar-bc-color">
+            <h1><a href='wall.html' class="navbar-brand"><img id="logo" src="logos/icon-left-font-monochrome-white.png" alt="logo Groupomania" /></a></h1>
+        </header>
+
+        <!--Navigation-->
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="wall.html">Derniers posts</a>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="profil.html">Mon profil</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Se déconnecter</a>
+        </nav>
+
+        <!--Profil-->
+        <main>
+            <section class="dataDisplay">
+                <h2>Votre profil</h2>
+                <div id="profil" class="badge badge-pils badge-secondary">
+                </div>
+                <div class="dataDisplay displayForm">
+                    <input type="file" name="image" id="imageUrl" class="input-area" aria-label="choix photo de profil">
+                    <button id="update-pic" class="btn btn-color" onclick='updateProfilPic()'>Modifier ma photo de profil</button>
+                </div>
+                <button class="btn btn-outline-danger" onclick='deleteProfil()'>Supprimer mon profil</button>
+            </section>
+            <section id="admin" class="dataDisplay">
+            <h3>Dernières participations des utilisateurs</h3>
+            </section>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="JS/authentification.js"></script>
+        <script src="js/profil.js"></script>
+    </body></html>
