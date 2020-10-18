@@ -2,16 +2,17 @@
   "name": "p7-groupomania-dw--v2",
   "version": "1.0.0",
   "description": "Création d'un réseau social d'entreprise | Fati Pereira",
-  "main": "server.js",
+  "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2.git"
   },
   "keywords": [
-    "node",
+    "nodemon",
     "express",
     "sequelize",
     "mysql",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/GoldWomenAcademy/P7-Groupomania-DW--V2#readme",
   "dependencies": {
+    "balanced-match": "^1.0.0",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
@@ -33,11 +35,11 @@
     "multer": "^1.4.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
-    "node": "^14.13.1",
     "nodemon": "^2.0.5",
     "path": "^0.12.7",
     "sanitize-html": "^2.1.0",
     "sequelize": "^6.3.5",
     "sql": "^0.78.0"
-  }
+  },
+  "devDependencies": {}
 }
