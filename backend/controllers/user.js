@@ -2,7 +2,7 @@ const models = require('../models');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
 const sanitizeHtml = require('sanitize-html');
-const config = require('../config/auth.config'); 
+const config = require('../config/auth.config.js'); 
 
 //Création d'une publication
 exports.createPost =  (req, res) => {
