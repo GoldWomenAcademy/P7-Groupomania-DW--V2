@@ -7,5 +7,5 @@ INSTALLATION<br>
 $ cd backend<br>
 $ npm install
 
-Créer la base de données avec config/groupomaniaDB.sql
+Créer la base de données avec config/groupomaniaDB.sql<br>
 Modifier les accès dans config/config.json
