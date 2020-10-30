@@ -4,7 +4,7 @@ Le projet consiste à construire un réseau social interne pour les employés de
 
 
 INSTALLATION
-$ cd backend
+$ cd backend<br>
 $ npm install
 
 Créer la base de données avec config/groupomaniaDB.sql
