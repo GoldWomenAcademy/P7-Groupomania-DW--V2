@@ -2,7 +2,11 @@
   "development": {
     "username": "root",
     "password": "root",
+<<<<<<< HEAD
     "database": "GroupomaniaDB",
+=======
+    "database": "groupomaniaDB",
+>>>>>>> 2099123356d5139ef9ea7bc8f6e82fea1d3c2d75
     "host": "127.0.0.1",
     "port": 8889,
     "dialect": "mysql"
