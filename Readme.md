@@ -9,7 +9,11 @@ $ npm install
 Créer la base de données avec config/groupomaniaDB.sql<br>
 Modifier les accès dans config/config.json
 
-ENGLISH VERSION 
+************************************************
+
+Create a corporate social network | Project 7 | Web developer course | Fati Pereira
+
+ENGLISH VERSION<br>
 The project consists of building an internal social network for Groupomania employees. The purpose of this tool is to facilitate interactions between colleagues. Groupomania's HR department has given free rein to its imagination for the network's functionalities and has imagined several bricks to promote exchanges between colleagues.
 
 INSTALLATION<br>
