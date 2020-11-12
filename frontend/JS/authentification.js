@@ -1,6 +1,6 @@
 document.getElementById('connexion');
 window.addEventListener('load', () => {
-    if(!sessionStorage.getItem('token')) {
+    if(!localStorage.getItem('token')) {
         window.location.replace('index.html')
     }
 

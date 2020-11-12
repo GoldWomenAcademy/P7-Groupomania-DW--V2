@@ -1,4 +1,4 @@
-const token = 'Bearer ' + sessionStorage.getItem('token');
+const token = 'Bearer ' + localStorage.getItem('token');
 
 async function getProfil() {
         response = await fetch("http://localhost:3000/api/user", {
@@ -90,7 +90,7 @@ async function deleteProfil() {
                 mode: 'cors',
             })
             if (response.status === 200) {
-                sessionStorage.clear();
+                localStorage.clear();
                 document.location.href = 'signup.html';
             }
         }

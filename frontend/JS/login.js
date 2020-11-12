@@ -4,7 +4,7 @@ const password = document.getElementById('password')
 const form = document.getElementById('form')
 const url = 'http://localhost:3000/api/user/login'
 
-sessionStorage.clear();
+localStorage.clear();
 
 const postData = async (url, dataElt) => {
     const response = await fetch(url, {
@@ -34,6 +34,6 @@ form.addEventListener("submit", async (e) => {
     if (data.error) {
         return console.error(data.error)
     }
-    sessionStorage.setItem('token', data.token)
+    localStorage.setItem('token', data.token)
     window.location = `wall.html`;
 })

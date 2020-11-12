@@ -1,5 +1,5 @@
-const token = 'Bearer ' + sessionStorage.getItem('token');
-const postId = sessionStorage.getItem('post');
+const token = 'Bearer ' + localStorage.getItem('token');
+const postId = localStorage.getItem('post');
 
 async function getDatasUser() {
         response = await fetch("http://localhost:3000/api/user", {
@@ -59,7 +59,7 @@ async function getPost() {
            document.querySelector(".supp").style.visibility = "hidden";
         }
     } catch (error) {
-        sessionStorage.removeItem('post');
+        localStorage.removeItem('post');
         document.location.href = "wall.html";
     }
 }
@@ -78,7 +78,7 @@ async function deletePost() {
     await response.json();
 
     if (response.status === 200) {
-        sessionStorage.removeItem('post')
+        localStorage.removeItem('post')
         document.location.href = 'wall.html';
     }}
     catch (error) {

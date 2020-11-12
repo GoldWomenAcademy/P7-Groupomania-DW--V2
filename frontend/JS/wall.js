@@ -3,7 +3,7 @@ const fileField = document.querySelector('input[type=file]')
 const btn = document.getElementById('btn');
 
 const url = 'http://localhost:3000/api/post';
-const token = 'Bearer ' + sessionStorage.getItem('token');
+const token = 'Bearer ' + localStorage.getItem('token');
 
 // Création post
 const createPost = async () => {
@@ -88,7 +88,7 @@ const renderPost = (User, imageUrl, postContent, postId) => {
     div.appendChild(link)
 
     link.addEventListener('click', function (e) {
-        sessionStorage.setItem('post', postId);
+        localStorage.setItem('post', postId);
         document.location.href = 'post.html'
     })
 }
