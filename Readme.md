@@ -7,7 +7,8 @@ $ cd backend<br>
 $ npm install
 
 Créer la base de données avec config/groupomaniaDB.sql<br>
-Modifier les accès dans config/config.json
+Modifier les accès dans config/config.json<br>
+Lancer l'application : nodemon server
 
 ************************************************
 ENGLISH VERSION<br>
@@ -21,6 +22,7 @@ $ cd backend<br>
 $ npm install
 
 Create the database with config/groupomaniaDB.sql<br>
-Modify the accesses in config/config.json
+Modify the accesses in config/config.json<br>
+Launch the application: nodemon server
 
 
