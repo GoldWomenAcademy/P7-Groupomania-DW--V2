@@ -11,4 +11,3 @@ Comments.associate = function(models) {
 }
     return Comments;
 }
-

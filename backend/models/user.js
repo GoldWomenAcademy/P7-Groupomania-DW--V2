@@ -8,8 +8,12 @@ module.exports = (sequelize, DataTypes) => {
       isAdmin: DataTypes.BOOLEAN,
   });
   User.associate = function(models) {
-      models.User.hasMany(models.Post);
-      models.User.hasMany(models.Comment)
+      models.User.hasMany(models.Post,{
+        onDelete:"CASCADE"
+      });
+      models.User.hasMany(models.Comment,{
+        onDelete:"CASCADE"
+      })
   };
   return User;
 };
