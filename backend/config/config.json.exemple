@@ -5,7 +5,7 @@
     "database": "your_database",
     "host": "your_host",
     "port": your_port,
-    "dialect": "your_dialect"
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
