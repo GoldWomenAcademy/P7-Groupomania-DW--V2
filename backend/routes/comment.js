@@ -1,3 +1,4 @@
+//Importations
 const express = require('express');
 const router = express.Router();
 
@@ -9,4 +10,5 @@ router.post('/:id', auth, commentCtrl.createComment);
 router.get('/:id', auth, commentCtrl.getAllComments);
 router.delete('/:id', auth, commentCtrl.deleteComment);
 
+//Exportation
 module.exports = router;

@@ -1,3 +1,4 @@
+//Importations
 const express = require('express');
 const router = express.Router();
 
@@ -14,5 +15,6 @@ router.get('/admin', auth, userCtrl.getAllProfils);
 router.put('/', auth, multer, userCtrl.updateProfil);
 router.delete('/',auth, userCtrl.deleteProfil);
 
+//Exportation
 module.exports = router;
 

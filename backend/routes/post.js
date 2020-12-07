@@ -1,3 +1,4 @@
+//Importations
 const express = require('express');
 const router = express.Router();
 
@@ -12,4 +13,5 @@ router.get('/', auth, postCtrl.getAllPosts);
 router.get('/:id', auth, postCtrl.getPost);
 router.delete('/:id', auth, postCtrl.deletePost);
 
+//Exportation
 module.exports = router;
