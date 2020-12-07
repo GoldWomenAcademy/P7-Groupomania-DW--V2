@@ -1,3 +1,4 @@
+//Importations
 const models = require('../models');
 const jwt = require('jsonwebtoken');
 const sanitizeHtml = require('sanitize-html');

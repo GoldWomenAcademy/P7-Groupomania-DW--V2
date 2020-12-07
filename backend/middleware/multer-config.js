@@ -3,7 +3,7 @@ const multer = require('multer');
 
 //Dictionnaire MIME_TYPES
 const MIME_TYPES = {
-  'image/jpg': 'jpg',
+  'image/jpg': 'jpeg',
   'image/jpeg': 'jpg',
   'image/png': 'png',
   'image/gif': 'gif'
