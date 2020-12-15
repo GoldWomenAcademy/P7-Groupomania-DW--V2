@@ -74,7 +74,7 @@ const renderPost = (User, imageUrl, postContent, postId) => {
     const textContent = document.createElement('p');
     const img = document.createElement('img');
 
-    name.innerHTML += User.firstName + ' à publié:';
+    name.innerHTML += User.firstName + ' a publié:';
     textContent.innerHTML += postContent;
     img.src = imageUrl;
     img.classList.add('imgPost');
